@@ -28,6 +28,7 @@ SELECT * FROM country WHERE code='SMR';
 -- be flying to.
 
 -- Write SQL query here
+-- <> means not equal
 SELECT * FROM city WHERE countrycode='SMR' and name <> 'San Marino';
 
 -- Clue #5: Oh no, she pulled a switch – there are two cities with very similar names, but in totally different
